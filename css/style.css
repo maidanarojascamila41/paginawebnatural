@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+
+
+*{margin: 0;
+padding: 0;
+font-family: 'Julius Sans One', sans-serif;}
+
+
+
+
+
+
+
+
+
+/*CONTAINERHERO*/
+
+.containerhero{
+    background-image: url('final.jpg'); filter: brightness(0.6);
+    height: 120vh; 
+    background-size: cover;
+    padding-left: 100px;
+    padding-bottom: 50px;
+ }
+
+
+
+ .heroheader{
+display: flex;
+justify-content: space-around; 
+align-items: center;
+padding-top: 50px;
+
+}
+a{ color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+   
+}
+
+nav a{ 
+    margin-left: 50px;
+color: white;}
+
+
+
+
+
+.containerhero p{color: white; font-size: 20px; padding-top: 50px;}
+.containerhero .hero-titulo{color: white; 
+    font-size: 65px;
+    padding-top: 200px;
+}
+
+
+.herobtn{
+   padding: 16px 66px;
+   margin-top: 30px;
+  font-size: 20px;
+  font-weight: bolder; }
+
+
+  .herologos{ display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 500px;
+    color: white;
+}  
+
+.heroicons{color: white; 
+    margin-top: 20px;
+    margin-left: 1000px;
+display: flex; justify-content:space-around;
+font-size: 20px;}
+
+
+/*containerdestinos*/
+.containerdestinos{ background-color: #232323; filter: brightness(0.8);}
+
+.centrodestines{ display: flex; justify-content: center; align-items: center; 
+padding-top: 60px;}
+.centrodestines h1{color: white;
+font-size: 30px;}
+
+
+
+
+.imgdestinos{ padding-top: 50px;
+    display: flex; justify-content:space-around;}
+    .imgdestinos h1{color: white;}
+
+
+/*containerexperience*/
+
+.containerexperience{margin-left: 100px; margin-bottom: 70px; margin-top: 100px; margin-right: 100px;}
+
+.containerexperience h1{color: white; font-size: 50px;
+margin-bottom: 50px;}
+.divexperience{ display: flex;}
+
+.loremexperience p{color: white; font-size: 17px;}
+
+/*containeraboutus*/
+.containeraboutus{
+    margin-left: 100px; margin-bottom: 50px; margin-top: 60px; margin-right: 100px;}
+.containeraboutus h1{color: white; font-size: 50px; margin-bottom: 50px;}
+.divaboutus{display: flex;}
+.loremaboutus h3{color: aqua; font-size: 20px;}
+.loremaboutus p{color: white; font-size: 17px;}
+
+
+/*containerservices*/
+.containerservices{
+    margin-left: 100px; padding-bottom: 100px; margin-top: 50px; margin-right: 100px;
+
+}
+.containerservices .h1services{color: white; font-size: 50px; margin-bottom: 50px;}
+.containerservices h3{color:aqua; font-size: 20px; margin-bottom: 70px;}
+
+.imgservices{display: flex; justify-content: space-around; text-align: center; font-size: 17px; color: white; }
+
+
+
+
+
+/*containerfinal*/
+.containerfinal{ 
+background-image: url('end.jpg'); filter: brightness(0.6);
+height: 150vh; 
+background-size: cover;
+}
+
+.final { display: flex; justify-content: center; text-align: center;}
+
+.final h1{font-size: 100px; color: white; margin-top: 100px; }
+
+
+.contactform h1{text-align: center; 
+color: white;
+font-size: 20px;}
+form{ 
+padding: 50px 500px;
+border-radius: 20px;
+text-align: center;
+width: 340px; }
+.input-group {display: flex; 
+flex-direction: column;
+}
+
+input , textarea{background-color: #0e0e0e; 
+padding: 20px 14px;
+margin-bottom: 25px;
+border: 0;
+border-radius: 10px;
+font-size: 15px;
+color: white;
+}
+
+.footer{background-color: #0e0e0e;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 500px;
+    display: flex;
+    color:  white}
